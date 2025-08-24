@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Do not normalize or treat .class files as text
+*.class binary
