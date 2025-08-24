@@ -21,7 +21,8 @@ public class RemoveDuplicates {
 				line = br.readLine();
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("File in not present on your path please check there ..... Thanks");
+			System.exit(0); // terminates JVM
 		}
 		System.out.println("File operation performed successfully");
 	}

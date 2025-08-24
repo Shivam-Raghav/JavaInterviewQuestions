@@ -1,7 +1,7 @@
 package Concurrent;
 
 import java.util.concurrent.Semaphore;
-
+// about thread :- 
 public class ConcurrentSemaphore extends Thread{
   
 	Semaphore sem;
